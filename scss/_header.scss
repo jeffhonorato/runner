@@ -1,15 +1,21 @@
 .header {
-    background: linear-gradient(
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)),
+    height: 80vh;
+    position: relative;
 
-    url("../img/header/background-header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+}
 
+.img__header-1 {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 440px;
+}
+
+.img__header-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
 }
 
 .nav {
