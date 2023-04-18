@@ -11,3 +11,33 @@
     height: 100vh;
 
 }
+
+.nav {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.nav__links {
+    display: flex;
+    gap: .5rem;
+}
+
+.nav__link {
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    background-color: $cor-menu;
+    padding: .4rem;
+    border: 2px solid $cor-link;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.nav__img--ico {
+    width: 30px;
+}
+
+.nav__nome {
+   font-family: $fonte-menu;
+}
