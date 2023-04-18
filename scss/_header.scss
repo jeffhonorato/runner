@@ -1,6 +1,8 @@
 .header {
     height: 80vh;
     position: relative;
+    background: rgb(30,113,203);
+    background: linear-gradient(90deg, rgba(30,113,203,1) 0%, rgba(220,247,99,1) 50%, rgba(30,113,203,1) 100%);
 
 }
 
@@ -33,10 +35,8 @@
     display: flex;
     gap: .3rem;
     align-items: center;
-    background: rgba(85, 193, 255, 0.68);
+    background: $cor-menu;
     box-shadow: 1px 1px 10px 1px $cor-link;
-    backdrop-filter: blur(10.4px);
-    -webkit-backdrop-filter: blur(10.4px);
     border: 1px solid rgba(85, 193, 255, 1);
     padding: .4rem;
     border-top-left-radius: 20%;
