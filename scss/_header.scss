@@ -35,6 +35,17 @@
     padding: .4rem;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $cor-link;
+        transition: all .5s;
+    }
+
+    &:hover .nav__nome  {
+        color: #000;
+        transition: all .5s;
+    }
 }
 
 .nav__img--ico {
