@@ -1,3 +1,26 @@
 .main {
     
+
+    .sobre__titulo {
+        font-family: $fonte-titulo;
+        font-size: 4rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .sobre__info--projeto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sobre__info {
+        width: 450px;
+    }
+
+    .sobre__info--p {
+        margin-bottom: .6rem;
+        font-family: $fonte-corpo;
+    }
 }
