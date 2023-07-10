@@ -1,0 +1,11 @@
+.corrida__info {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .corrida__info--acordion {
+        width: 25rem; /*400px*/ 
+    }
+}
