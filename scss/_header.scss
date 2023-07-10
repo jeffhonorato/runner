@@ -1,23 +1,18 @@
 .header {
-    height: 80vh;
-    position: relative;
-    background: rgb(30,113,203);
-    background: linear-gradient(90deg, rgba(30,113,203,1) 0%, rgba(220,247,99,1) 50%, rgba(30,113,203,1) 100%);
+    background-image: url("../img/header/background-header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
 
-}
 
-.img__header-1 {
-    position: absolute;
-    top: 120px;
-    left: 0;
-    width: 440px;
-}
+    height: 110vh;
 
-.img__header-2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .nav {
@@ -28,7 +23,8 @@
 
 .nav__links {
     display: flex;
-    gap: .5rem;
+    flex-direction: column;
+    
 }
 
 .nav__link {
