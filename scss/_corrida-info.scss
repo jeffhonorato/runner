@@ -5,7 +5,44 @@
     justify-content: space-around;
     align-items: center;
 
+    .corrida__info--titulo {
+        font-family: $fonte-titulo;
+        font-size: 2.5rem;
+    }
+
     .corrida__info--acordion {
         width: 25rem; /*400px*/ 
+        background-color: #e2e2e2;
+        border-radius: 12px;
+        padding: .4rem;
+        margin-bottom: .6rem;
+        box-shadow: 2px 0px 0px 1px #000;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #fff;
+            transition: all .4s;
+        }
     }
+
+    .corrida__info--sumario {
+        font-family: $fonte-corpo;
+        margin-bottom: 1rem;
+
+    }
+
+    .corrida__info--sumario::marker {
+        font-size: 2rem;    
+    }
+
+    .corrida__info--sumario--p {
+        margin-bottom: .5rem;
+        font-family: $fonte-corpo;
+        font-weight: 100;
+        font-size: .9rem;
+    }
+
+ 
+
+    
 }
