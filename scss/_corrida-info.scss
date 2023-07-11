@@ -18,7 +18,7 @@
         margin-bottom: .6rem;
         box-shadow: 2px 0px 0px 1px #000;
         cursor: pointer;
-        animation: slidein .5s ease-in-out;
+        
 
         &:hover {
             background-color: #fff;
@@ -29,6 +29,7 @@
     .corrida__info--sumario {
         font-family: $fonte-corpo;
         margin-bottom: 1rem;
+       
        
 
     }
@@ -43,17 +44,18 @@
         font-weight: 100;
         font-size: .9rem;
         list-style: disc;
-       
+        animation: mymove .5s ease-in-out; 
     }
 
  
-    @keyframes slidein {
+    @keyframes mymove {
         from {
-          transform: translateX(0%);
+            margin-bottom: 100px;
+            opacity: 0;
         }
-      
         to {
-          transform: translateX(100%);
+            margin-bottom: 0px;
+            opacity: 1;
         }
       }
     
