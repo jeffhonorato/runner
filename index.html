@@ -169,21 +169,25 @@
 
                 <form action="https://formsubmit.co/43d1a3ee7ab4725549d7c5b5e6011d55" method="POST" enctype="multipart/form-data">
 
-                    <input type="text" name="name" placeholder="Nome Completo">
+                    <input type="text" name="nome" placeholder="Nome Completo">
                     <input type="number" name="idade" placeholder="Idade">
                     <input type="email" name="email" placeholder="Email">
 
                     <select name="genero" id="">
-                        
-                        <option value="masculino">Masculino</option>
-                        <option value="feminino">Feminino</option>
+                        <optgroup label="Genero:">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                        </optgroup>
+                      
                        
                     </select>
                     
                     <select name="modalidade" id="">
-                        
-                        <option value="5km">5 KM:</option>
-                        <option value="10km">10 KM:</option>
+                        <optgroup label="Modalidade:">
+                            <option value="5km">5 KM:</option>
+                            <option value="10km">10 KM:</option>
+                        </optgroup>
+                       
                        
                     </select>
 
