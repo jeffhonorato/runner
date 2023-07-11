@@ -22,6 +22,10 @@
     .sobre__info {
         width: 450px;
         padding: .5rem;
+
+        @include celular {
+            padding: 1rem;
+        }
     }
 
     .sobre__info--p {
@@ -29,6 +33,10 @@
         font-family: $fonte-corpo;
         line-height: 1.4;
         letter-spacing: 1px;
+
+        @include celular {
+            font-size: .8rem;
+        }
        
     }
 }

@@ -4,11 +4,24 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 3rem; 
+
+   
+    
+    .corrida__acordion {
+        @include celular {
+            padding: 0rem .5rem;
+        }
+    }
 
     .corrida__info--titulo {
         font-family: $fonte-titulo;
         font-size: 2.5rem;
+
+        @include celular {
+            font-size: 2.2rem;
+            text-align: center;
+        }
     }
 
     .corrida__info--acordion {
@@ -25,12 +38,19 @@
             background-color: #fff;
             transition: all .4s;
         }
+
+        @include celular {
+            width: 330px;
+        }
     }
 
     .corrida__info--sumario {
         font-family: $fonte-corpo;
         margin-bottom: 1rem;
        
+        @include celular {
+            font-size: 1rem;
+        }
        
 
     }
@@ -46,6 +66,11 @@
         font-size: .9rem;
         list-style: disc;
         animation: mymove .5s ease-in-out; 
+
+        @include celular {
+            font-size: .8rem;
+            padding: .4rem;
+        }
     }
 
  
