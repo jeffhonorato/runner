@@ -1,0 +1,17 @@
+.incricao {
+
+    margin-top: 3rem;
+
+    .incricao__titulo {
+        font-family: $fonte-titulo;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .inscricao__conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
