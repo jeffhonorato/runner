@@ -173,16 +173,16 @@
                     <input class="inscricao__form--input" type="number" name="idade" placeholder="Idade">
                     <input class="inscricao__form--input" type="email" name="email" placeholder="Email">
 
-                    <select name="genero" id="">
+                    <select name="genero" id="" class="inscricao__form--inputGenero" >
                         <optgroup label="Genero:">
-                            <option value="masculino">Masculino</option>
-                            <option value="feminino">Feminino</option>
+                            <option class="inscricao__form--inputGenero" value="masculino">Masculino</option>
+                            <option class="inscricao__form--inputGenero" value="feminino">Feminino</option>
                         </optgroup>
                       
                        
                     </select>
                     
-                    <select name="modalidade" id="">
+                    <select name="modalidade" class="inscricao__form--inputModalidade" id="">
                         <optgroup label="Modalidade:">
                             <option value="5km">5 KM:</option>
                             <option value="10km">10 KM:</option>
@@ -194,7 +194,10 @@
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
 
-                    <button type="submit">Enviar</button>
+                    <div class="btn__inscricao">
+                        <button class="btn__inscricao--enviar" type="submit">Enviar</button>
+                    </div>
+                    
                     
                 </form>
             </div>
