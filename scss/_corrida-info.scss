@@ -26,7 +26,7 @@
 
     .corrida__info--acordion {
         width: 25rem; /*400px*/ 
-        background-color: #e2e2e2;
+        background-color: $cor-menu;
         border-radius: 12px;
         padding: .4rem;
         margin-bottom: .6rem;
@@ -35,8 +35,12 @@
         
 
         &:hover {
-            background-color: #fff;
+            background-color: #e4e4e4;
             transition: all .4s;
+        }
+
+        &:hover  .corrida__info--sumario {
+            color: #000;
         }
 
         @include celular {
@@ -47,6 +51,7 @@
     .corrida__info--sumario {
         font-family: $fonte-corpo;
         margin-bottom: 1rem;
+        color: #fff;
        
         @include celular {
             font-size: 1rem;
