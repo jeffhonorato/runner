@@ -14,4 +14,18 @@
         align-items: center;
         justify-content: space-around;
     }
+
+    .inscricao__form {
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+        width: 350px;
+        box-shadow: 1px 2px 5px 1px #000;
+    }
+
+    .inscricao__form--input {
+        outline: 0;
+        border: 0;
+        border-bottom: 2px solid #000;
+    }
 }
