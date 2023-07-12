@@ -7,5 +7,63 @@
         font-size: 4rem;
         font-family: $fonte-titulo;
         text-align: center;
+        
+    }
+
+    .blog__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8rem;
+    }
+
+    .blog__info--etiqueta {
+        width: 400px;
+        box-shadow: 2px 2px 5px 2px #000;
+        padding: .5rem;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #e4e4e4;
+            transition: all .4s;
+            box-shadow: 2px 2px 5px 2px #fff;
+        }
+    }
+
+    .blog__info--etiqueta--h2 {
+        margin-bottom: .8rem;
+        font-family: $fonte-titulo;
+        font-size: 2.5rem;
+    }
+
+    .blog__info--etiqueta--p {
+        font-family: $fonte-corpo;
+        font-size: 1rem;
+        margin-bottom: .8rem;
+        line-height: 1.4;
+        letter-spacing: 1px;
+    }
+
+    .btn__blog--div {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .btn__blog {
+        border: 0;
+        width: 120px;
+        box-shadow: 2px 2px 5px 2px #000;
+        padding: .4rem;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #fff;
+
+        &:hover {
+            background-color: $cor-menu;
+            transition: all .4s;
+            box-shadow: 2px 2px 5px 2px #fff;
+        }
     }
 }

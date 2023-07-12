@@ -110,11 +110,12 @@
         font-size: 1.3rem;
         border-radius: 10px;
         cursor: pointer;
-        background-color: $cor-menu;
+        background-color: #fff;
 
         &:hover {
-            background-color: #fff;
+            background-color: $cor-menu;
             transition: all .4s;
+            box-shadow: 2px 2px 5px 2px #fff;
         }
         
     }
