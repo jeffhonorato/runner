@@ -34,6 +34,11 @@
         }
     }
 
+    .inscricao__form--label {
+        font-family: $fonte-corpo;
+        color: #fff;
+    }
+
     .inscricao__form--input {
         outline: 0;
         border: 0;
@@ -41,7 +46,7 @@
         margin-bottom: .5rem;
         font-size: 1.5rem;
         background-color: transparent;
-        color: #fff;
+        color: #000;
 
         @include celular {
             font-size: 1.1rem;
