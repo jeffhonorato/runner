@@ -1,10 +1,10 @@
 .header {
-    background-image: url("../img/header/background-header.png");
+    background-image: url("../img/header/header-Background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
-    width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
 
@@ -18,26 +18,48 @@
 .header__titulo--h1 {
     position: absolute;
     font-family: $fonte-titulo;
-    right: -50px;
-    top: 320px;
-    font-size: 2.2rem;
     color: $cor-menu;
+    right: 70px;
+    top: 120px;
+    font-size: 5rem;
+
+    
+    @include celular {
+        position: absolute;
+        font-family: $fonte-titulo;
+        right: -50px;
+        top: 320px;
+        font-size: 2.2rem;
+        color: $cor-menu;
+    }
+    
 }
 
 .header__titulo--h2 {
     position: absolute;
+    right: 0px;
+    top: 200px;
+    font-size: 6rem;
     font-family: $fonte-titulo;
-    right: -75px;
-    top: 360px;
-    font-size: 2.3rem;
     color: $cor-menu;
+
+
+    @include celular {
+        position: absolute;
+        font-family: $fonte-titulo;
+        right: -75px;
+        top: 360px;
+        font-size: 2.3rem;
+        color: $cor-menu;
+    }
+    
 }
 
 .nav {
     width: 200px;
     position: fixed;
-    top: 10px;
-    left: 5px;
+    top: 90px;
+    right: 14px;
     
 }
 
@@ -49,6 +71,9 @@
     width: 70px;
     margin-bottom: .5rem;
     cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 8px;
 
     &:hover {
         width: 67px;
