@@ -3,8 +3,34 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2rem 0rem;
     height: 120vh;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+
+    @include celular {
+        width: 250px; 
+        height: 90vh;
+        margin: 0rem 1rem;
+    }
+}
+
+.header__titulo--h1 {
+    position: absolute;
+    font-family: $fonte-titulo;
+    right: -50px;
+    top: 320px;
+    font-size: 2.2rem;
+    color: $cor-menu;
+}
+
+.header__titulo--h2 {
+    position: absolute;
+    font-family: $fonte-titulo;
+    right: -75px;
+    top: 360px;
+    font-size: 2.3rem;
+    color: $cor-menu;
 }
 
 .nav {
