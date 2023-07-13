@@ -30,6 +30,10 @@ img {
     max-width: 100%;
 }
 
+// .js-scroll-barra {
+//     overflow: hidden;
+// }
+
 /******** MIXINS ********/
 @mixin celular {
     @media(min-width: 0px) and (max-width: 420px) {

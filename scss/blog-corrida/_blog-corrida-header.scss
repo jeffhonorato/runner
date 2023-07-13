@@ -102,6 +102,8 @@
         color: #fff;
     }
 
+    /* == BLOG CORRIDA DE RUA == */
+
     .blog__corrida {
         position: fixed;
         top: 0;
@@ -109,18 +111,42 @@
         bottom: 0;
         right: 0;
         width: 100%;
+        height: max-content;
         background-color: #fff;
+        // display: none;
+        overflow: hidden;
+        
     }
 
-    .blog__corrida--div--1 {
+    .blog__corrida--div {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         flex-wrap: wrap;
         gap: 8rem;
+    }
+
+    .blog__corrida--div--titulo {
+        margin-bottom: .5rem;
+        font-family: $fonte-titulo;
+    }
+
+
+    .blog__corrida--div--info {
+       
 
     }
 
     .blog__corrida--div--p {
+        width: 400px;
+        margin-bottom: 1rem;
+        font-size: .9rem;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        font-family: $fonte-corpo;
+    }
+
+    .blog__corrida--img {
         width: 400px;
     }
 
