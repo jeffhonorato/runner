@@ -3,6 +3,8 @@
     padding: 3rem 1rem;
     background-color: $cor-menu;
 
+
+
     .blog__titulo {
         font-size: 4rem;
         font-family: $fonte-titulo;
@@ -112,10 +114,14 @@
         right: 0;
         width: 100%;
         background-color: #fff;
-        // display: none;
+        display: none;
         overflow-y: scroll;
         z-index: 10;
         
+    }
+
+    .blog__corrida.ativo {
+        display: block;
     }
 
     .bnt__fechar--blogCorrida {
@@ -129,6 +135,8 @@
             width: 48px;
         }
     }
+
+  
 
     .blog__corrida--div {
         display: flex;
