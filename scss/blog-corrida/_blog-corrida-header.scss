@@ -117,6 +117,7 @@
         display: none;
         overflow-y: scroll;
         z-index: 10;
+        animation: slidein 1s ease-in-out;
         
     }
 
@@ -182,6 +183,18 @@
             width: 350px;
         }
     }
+
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
 
    
 }
