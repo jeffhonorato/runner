@@ -169,6 +169,10 @@
 
     .blog__corrida--img {
         width: 400px;
+
+        @include celular {
+            width: 350px;
+        }
     }
 
    
